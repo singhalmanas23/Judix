@@ -28,8 +28,8 @@ const Content2 = () => {
 
   return (
     <div className='h-[550px] bg-blue-50 flex flex-col  p-8'>
-      <div className='text-md text-gray-400 text-start '>That's where we come</div>
-      <div className='text-gray-500 text-2xl font-bold flex items-center mb-8'>
+      <div className='text-md text-custom-gray text-start text-[18px] h-[13px] mb-8'>That's where we come</div>
+      <div className='text-cust-gray text-2xl font-semibold flex items-center mb-8 font-poppins'>
         Judix: The smarter way to manage your legal and financial matters.
         <span className='flex items-center ml-[500px]'>
           <TbCircleArrowLeftFilled className='text-gray-400 w-7 h-7 cursor-pointer' onClick={handlePrevious} />

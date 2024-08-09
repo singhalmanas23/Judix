@@ -4,18 +4,18 @@ import { FaQuoteLeft } from "react-icons/fa";
 const Final = () => {
   return (
     <div className="h-[2470px] bg-blue-50 flex flex-col">
-      <div className="flex flex-row gap-28 items-center justify-center">
-        <button className="bg-blue-800 w-56 h-12 text-white mt-12 rounded-md">
+      <div className="flex flex-row gap-28 items-center justify-center mt-12">
+        <button className="bg-exp-col w-[332px] h-[78px] text-[20px] font-medium text-white mt-12 rounded-md">
           EXPLORE ALL PRODUCTS
         </button>
-        <button className="bg-gray-500 w-48 h-12 text-white mt-12 rounded-md">
+        <button className="bg-chat-gray w-[332px] h-[78px] text-[20px] font-medium text-white mt-12 rounded-md">
           TALK TO EXPERTS
         </button>
       </div>
-      <div className="text-4xl mt-24 text-center font-bold text-bold text-blue-950">
+      <div className="text-5xl mt-28 text-center font-bold text-bold text-blue-950">
         All you need is <span className="text-orange-400">Judix</span>
       </div>
-      <div>
+      {/* <div>
         <div className="flex flex-row mt-14">
           <div className="flex flex-col ml-14 w-1/2">
             <div className="text-2xl text-black font-sans font-bold mt-14">
@@ -113,7 +113,7 @@ const Final = () => {
             Request a callback
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
