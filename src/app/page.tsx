@@ -1,10 +1,11 @@
-import Content from "@/sections/Content";
-import Final from "@/sections/Final";
+import Content from "@/components/Content";
+import Final from "@/components/Final";
 // import Footer from "@/components/Footer";
-import Hero from "@/sections/Hero";
-import Content2 from "@/sections/HeroA";
-import Content3 from "@/sections/HeroB";
+import Hero from "@/components/Hero";
+import Content2 from "@/components/HeroA";
+import Content3 from "@/components/HeroB";
 import Navbar from "@/components/Navbar";
+import "./globals.css";
 
 export default function Home() {
   return (
@@ -15,8 +16,7 @@ export default function Home() {
         <Content />
         <Content2 />
         <Content3 />
-        <Final />
-        {/* <Footer /> */}
+        <Final/>
       </div>
     </>
   );
