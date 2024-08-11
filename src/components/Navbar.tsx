@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center p-4 text-black">
+    <nav className="flex justify-between items-center p-4 text-black bg-white h-[70px] w-[1440px]">
      
       <div className="flex text-center gap-4 ml-12">
       <Image
@@ -21,7 +21,7 @@ const Navbar = () => {
       </div>
       <div className="flex space-x-4">
         <button className="text-black py-2 px-4 rounded cursor-pointer">Login</button>
-        <button className="bg-custom-blue text-white py-2 px-4 rounded cursor-pointer">
+        <button className="bg-custom-blue text-white py-2 px-4 rounded-[5px] cursor-pointer ">
           Lawyer/CA click here
         </button>
       </div>

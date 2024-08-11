@@ -1,6 +1,6 @@
 import Content from "@/components/Content";
 import Final from "@/components/Final";
-// import Footer from "@/components/Footer";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Content2 from "@/components/HeroA";
 import Content3 from "@/components/HeroB";
@@ -17,6 +17,7 @@ export default function Home() {
         <Content2 />
         <Content3 />
         <Final/>
+        <Footer/>
       </div>
     </>
   );
